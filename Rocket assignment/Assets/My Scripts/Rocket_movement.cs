@@ -20,7 +20,7 @@ public class Rocket_movement : MonoBehaviour
     private void Update()
     {
         float yAxis = Input.GetAxis("Hover");
-        float xAxis = Input.GetAxis("Horizontal");
+        float xAxis = Input.GetAxis("Horizontal");s
             
         ThrustForward(yAxis * speed);
         Rotate(transform, xAxis * -RotationSpeed);
