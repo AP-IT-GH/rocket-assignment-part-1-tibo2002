@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 3256907276729475677}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 4206120731265476120}
   m_Layer: 0
   m_Name: head
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 5678652049278381224}
   m_Layer: 0
   m_Name: Body rocket
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -352,6 +352,10 @@ PrefabInstance:
     - target: {fileID: 7315422139018832374, guid: 854d83779618f5c478d94baa7d00ccd5, type: 3}
       propertyPath: m_Name
       value: base rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 7315422139018832374, guid: 854d83779618f5c478d94baa7d00ccd5, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7895331325446426980, guid: 854d83779618f5c478d94baa7d00ccd5, type: 3}
       propertyPath: m_Materials.Array.data[0]
